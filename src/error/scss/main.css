@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+html,
+body {
+  font-family: "TTNormal", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  color: white;
+}
+body a {
+  color: white;
+}
+
+@font-face {
+  font-family: "TTNorms-Bold", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../../fonts/TTNorms-Bold.woff2);
+}
+@font-face {
+  font-family: "TTNorms-Regular", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../fonts/TTNorms-Regular.woff2);
+}
+p {
+  font-family: "TTNorms-Bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 38px;
+  color: transparent;
+  background-image: linear-gradient(#f0145a, #ef8080);
+  -webkit-background-clip: text;
+  text-align: center;
+  margin-top: 300px;
+  padding: 20px;
+}
+
+html {
+  background-size: cover;
+  background-color: #323264;
+}
+
+/*# sourceMappingURL=main.css.map */
