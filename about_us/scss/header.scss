@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: 'TTNormal', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.language__label, {
+  color: grey;
+}
+.header__select__contact_info__contacts_phone a {
+  color: rgba(179, 179, 186, 1)
+}
+
+.language__checkbox:checked ~ .language__label {
+  color: white;
+}
+.facebook__logo {
+  filter: brightness(0%) invert(77%) sepia(8%) saturate(152%) hue-rotate(201deg)
+  brightness(94%) contrast(87%);
+}
+.header__select__contact_info__contacts_address {
+  color: #b3b3ba;
+}
+.nav__list {
+  a {
+    color: #24a3ff;
+  }
+}
+
+.nav__list li:hover, .nav__item_act {
+  border-bottom: 2px solid rgba(240, 20, 90, 1);
+  box-sizing: border-box;
+
+  a {
+    color: rgba(240, 20, 90, 1);
+  }
+}
+.header__nav_icon {
+  filter: brightness(0%) invert(18%) sepia(9%) saturate(4451%)
+  hue-rotate(204deg) contrast(90%);
+}
+.nav {
+  margin-top: 0;
+}
+.header__logo__container {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+.logo {
+  .header__logo__img {
+    width: 407px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .header__logo__container {
+    height: 82px;
+  }
+}
+@media screen and (min-width: 850px) {
+  .header__logo__img {
+    width: 270px;
+  }
+}
+@media screen and (min-width: 950px) {
+  .header__logo__img {
+    width: 364px;
+  }
+}
+@media screen and (max-width: 1120px) {
+
+  .header__logo__img {
+    width: auto;
+    max-width: 208px;
+  }}

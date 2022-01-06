@@ -1,0 +1,22 @@
+@import"../../scss/main_settings";
+@import"../../scss/fonts";
+
+p {
+  font-family: "TTNorms-Bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 38px;
+  color: transparent;
+  background-image: linear-gradient(#f0145a, #ef8080);
+  -webkit-background-clip: text;
+  text-align: center;
+  margin-top: 300px;
+  padding: 20px;
+
+}
+
+html{
+
+  background-size: cover;
+  background-color: #323264;
+}

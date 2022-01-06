@@ -1,0 +1,97 @@
+
+.section_one__about_experience::before {
+  content: '';
+  display: block;
+  width: 95%;
+  border: 4px solid #e6e6f0;
+  margin-bottom: 15px;
+}
+.section_one__about_company__title {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: bold;
+  color: transparent;
+  background-image: linear-gradient(90.13deg, #f0145a, #ef8080);
+  -webkit-background-clip: text;
+  margin-bottom: 20px;
+}
+.about_company__text {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.section_one__about_experience__img {
+  margin-bottom: 10px;
+  display: block;
+}
+.section_one__about_experience__text {
+  font-size: 18px;
+  line-height: 21px;
+  color: #323264;
+}
+.section_one__about_experience {
+  margin-bottom: 34px;
+}
+@media screen and (min-width: 800px) {
+  .section_one {
+    display: flex;
+    justify-content: center;
+  }
+  .section_one__about_company {
+    width: 600px;
+    margin-right: 40px;
+  }
+  .section_one__about_experience::before {
+    transform: rotate(-90deg);
+    width: 223px;
+    position: absolute;
+    top: 117px;
+    right: 64%;
+    margin-right: 20px;
+  }
+  .section_one__about_experience {
+    position: relative;
+    align-self: center;
+    width: 412px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .section_one__about_experience::before {
+    right: 71%;
+  }
+  .section_one {
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .section_one__about_experience::before {
+    right: 73%;
+  }
+
+
+}
+@media screen and (min-width: 1440px) {
+  .section_one {
+    margin-bottom: 100px;
+  }
+  .section_one__about_company__title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .about_company__text {
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .section_one__about_experience__text {
+    margin-bottom: 40px;
+  }
+  .section_one__about_company {
+    width: 641px;
+  }
+  .section_one__about_experience::before {
+    width: 307px;
+    right: 63%;
+    top: 160px;
+  }
+}
