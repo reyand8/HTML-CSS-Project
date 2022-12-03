@@ -1,6 +1,6 @@
 # Fronted Project (HTML + CSS + JS)
 
-It's my first frontend project using <strong>HTML, CSS</strong> and <strong>JS</strong>. 
+It's my first frontend project using <strong>HTML, SCSS, CSS</strong> and <strong>JS</strong>. 
 Thanks to <a href="figma.com">figma.com</a> I found this maket which gave me the opportunity to put my theoretical knowledge into practice.
 These skills will later be used to develop web applications.
 Below you can see some screenshots of my project.
